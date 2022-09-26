@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Projects\\azure-resume\\backend\\tests\\tests.csproj": {}
+    "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\tests\\tests.csproj": {}
   },
   "projects": {
-    "H:\\Projects\\azure-resume\\backend\\api\\api.csproj": {
+    "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Projects\\azure-resume\\backend\\api\\api.csproj",
+        "projectUniqueName": "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "H:\\Projects\\azure-resume\\backend\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\davis\\.nuget\\packages\\",
-        "outputPath": "H:\\Projects\\azure-resume\\backend\\api\\obj\\",
+        "projectPath": "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\Doug\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Doug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +46,7 @@
             },
             "Microsoft.NET.Sdk.Functions": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[4.1.1, )"
             }
           },
           "imports": [
@@ -53,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,34 +65,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Projects\\azure-resume\\backend\\tests\\tests.csproj": {
+    "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\tests\\tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Projects\\azure-resume\\backend\\tests\\tests.csproj",
+        "projectUniqueName": "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\tests\\tests.csproj",
         "projectName": "tests",
-        "projectPath": "H:\\Projects\\azure-resume\\backend\\tests\\tests.csproj",
-        "packagesPath": "C:\\Users\\davis\\.nuget\\packages\\",
-        "outputPath": "H:\\Projects\\azure-resume\\backend\\tests\\obj\\",
+        "projectPath": "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\tests\\tests.csproj",
+        "packagesPath": "C:\\Users\\Doug\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Doug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\Projects\\azure-resume\\backend\\api\\api.csproj": {
-                "projectPath": "H:\\Projects\\azure-resume\\backend\\api\\api.csproj"
+              "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\api\\api.csproj": {
+                "projectPath": "F:\\Documents\\GettingGood\\AzureProjects\\Capstone\\azure-resume\\backend\\api\\api.csproj"
               }
             }
           }
@@ -135,7 +140,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -144,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

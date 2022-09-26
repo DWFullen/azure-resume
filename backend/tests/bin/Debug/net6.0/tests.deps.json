@@ -1135,7 +1135,7 @@
           }
         }
       },
-      "Microsoft.NET.Sdk.Functions/4.0.1": {
+      "Microsoft.NET.Sdk.Functions/4.1.1": {
         "dependencies": {
           "Microsoft.Azure.Functions.Analyzers": "1.0.0",
           "Microsoft.Azure.WebJobs": "3.0.23",
@@ -2544,7 +2544,7 @@
       "api/1.0.0": {
         "dependencies": {
           "Microsoft.Azure.WebJobs.Extensions.CosmosDB": "3.0.10",
-          "Microsoft.NET.Sdk.Functions": "4.0.1"
+          "Microsoft.NET.Sdk.Functions": "4.1.1"
         },
         "runtime": {
           "api.dll": {}
@@ -3181,12 +3181,12 @@
       "path": "microsoft.net.http.headers/2.2.0",
       "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
     },
-    "Microsoft.NET.Sdk.Functions/4.0.1": {
+    "Microsoft.NET.Sdk.Functions/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ETL2yIoB66dUBorl0cllKHXuK1ItXDgC68AhzXX7amnQNv/rG+zS+ivLs7xpczhXq1Tkcdr02rPGoE0X7HTBwQ==",
-      "path": "microsoft.net.sdk.functions/4.0.1",
-      "hashPath": "microsoft.net.sdk.functions.4.0.1.nupkg.sha512"
+      "sha512": "sha512-G+b+bHtta7P8KPItSWygbVwQhwamU/WWmBoiv3snf8ScVYai3PbC1JSW3H22X+askqxhiw/Tx0yZKdE5oKMhRQ==",
+      "path": "microsoft.net.sdk.functions/4.1.1",
+      "hashPath": "microsoft.net.sdk.functions.4.1.1.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/16.11.0": {
       "type": "package",
