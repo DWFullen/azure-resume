@@ -1,5 +1,5 @@
 name: deploy_frontend
-# Deploys when pish is made from the frontend folder
+# Deploys when push is made from the frontend folder
 
 on:
     push:
@@ -27,7 +27,7 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "dfcapazureresume" --name "dfcapazureresume" --resource-group "azure-resume-rg"
+           az cdn endpoint purge --content-paths "/*" --profile-name "dfcapazureresume" --name "dfcapazureresume" --resource-group "azure-resume-rg"
 
   # Azure logout
     - name: logout
