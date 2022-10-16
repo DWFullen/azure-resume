@@ -9,19 +9,19 @@ My own Azure resume, following [ACG project video](https://learn.acloud.guru/ser
 - [NuGet Microsoft.Azure.WebJobs.Extensions.CosmosDB](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.CosmosDB#dotnet-cli)
 - [Visual Studio Code Extension: Azure Storage](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
 
-## First Steps
+## First Phase
 
 - Frontend folder contains the website.
 - main.js contains visitor counter code.
 
-## Second Steps
+## Second Phase
 - Backend folder contains the api.
 - Created Azure Resource Group in Azure portal.
 - Created Azure CosmosDB in Azure portal.
 - Created Azure Function locally via CLI.
 - Deployed local Azure Function to Azure for production via Visual Studio Code Extension: Azure Functions.
 
-## Third Steps
+## Third Phase
 - Deployed Frontend folder to Azure Blob Storage via Visual Studio Code Extension: Azure Storage.
 - Updated CORS setting on Azure function to reflect URL of Azure Blog Storage.
 - Create Azure CDN for our Azure Blob Storage.
@@ -29,7 +29,7 @@ My own Azure resume, following [ACG project video](https://learn.acloud.guru/ser
 - Enable HTTPS on the Azure CDN.
 - Added my custom domain to CORS policy for Azure Function.
 
-## Fourth Steps
+## Fourth Phase
 - Setup CI/CD.
 - Created GitHub workflows for backend and frontend to be trigger on push oin those respective folders. 
 
